@@ -1,0 +1,47 @@
+body{
+    margin-right: 600px;
+    margin-left: 500px;
+    margin-bottom: 700px;
+}
+a{
+    color: black;
+}
+a:hover{
+    color: rgb(76, 0, 255);
+}
+#container{
+    width: 503px;
+    height: 540px;
+
+
+    font-size: large;
+    background-color: darkgreen;
+    text-transform: uppercase;
+}
+#host_photo{
+    position: absolute;
+    top: 0px;
+    margin-top: 10px;
+
+    border-left: solid 5px black;
+    border-bottom: solid 5px black;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+#photo_host{
+    border-radius:100%;
+    border: solid 10px rgba(48, 48, 230, 0.67);
+}
+
+
+#host_info{
+    position: absolute;
+    top: 260px;
+    padding: 15px;
+
+    color: black;
+    border-left: solid 5px black;
+    border-bottom: solid 5px black;
+    z-index: 2;
+}
